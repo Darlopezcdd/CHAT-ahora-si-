@@ -1,359 +1,387 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Chat.Mvc.bundle.scp.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Chat.Mvc.bundle.scp.css",
       "PackagePath": "staticwebassets\\Chat.Mvc.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\10c7be74-f111-4855-bd15-b6630ed44e62.png",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\0537cea5-2dc1-4af9-b34e-7912e2f78e22.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\mensajes\\0537cea5-2dc1-4af9-b34e-7912e2f78e22.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\10c7be74-f111-4855-bd15-b6630ed44e62.png",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\10c7be74-f111-4855-bd15-b6630ed44e62.png"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\5fef5d54-8093-4af8-a5d5-4b3e1ebbdf32.png",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\1b715f32-09fa-4115-b9f4-d6367352ba66.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\mensajes\\1b715f32-09fa-4115-b9f4-d6367352ba66.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\5fef5d54-8093-4af8-a5d5-4b3e1ebbdf32.png",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\5fef5d54-8093-4af8-a5d5-4b3e1ebbdf32.png"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\6aa33072-0508-4913-87f0-5612ff0b469f.pdf",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\6aa33072-0508-4913-87f0-5612ff0b469f.pdf",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\6aa33072-0508-4913-87f0-5612ff0b469f.pdf"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\6ad2619f-0579-4fe2-affc-0c14d5c72d80.gif",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\6ad2619f-0579-4fe2-affc-0c14d5c72d80.gif",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\6ad2619f-0579-4fe2-affc-0c14d5c72d80.gif"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\6d73ff00-6e72-4e41-9071-1dfeb779be8d.png",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\6d73ff00-6e72-4e41-9071-1dfeb779be8d.png",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\6d73ff00-6e72-4e41-9071-1dfeb779be8d.png"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\6e50d028-dcc1-4c3a-b13a-3c7ef3d9a99e.jpeg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\6e50d028-dcc1-4c3a-b13a-3c7ef3d9a99e.jpeg",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\6e50d028-dcc1-4c3a-b13a-3c7ef3d9a99e.jpeg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\74e343de-2a8c-47d9-a75f-59448c1fa5c9.docx",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\74e343de-2a8c-47d9-a75f-59448c1fa5c9.docx",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\74e343de-2a8c-47d9-a75f-59448c1fa5c9.docx"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\92e4b54a-2d8a-4e28-b368-5b91cdfd717a.jpg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\92e4b54a-2d8a-4e28-b368-5b91cdfd717a.jpg",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\92e4b54a-2d8a-4e28-b368-5b91cdfd717a.jpg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\9a8fc108-fd9b-4a5a-a537-8c13709a8a95.jpeg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\949fc716-efe0-4110-9636-9a33d03f6feb.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\mensajes\\949fc716-efe0-4110-9636-9a33d03f6feb.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\97d1cab6-1f79-47d0-b385-1a48dd1efdec.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\mensajes\\97d1cab6-1f79-47d0-b385-1a48dd1efdec.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\9a8fc108-fd9b-4a5a-a537-8c13709a8a95.jpeg",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\9a8fc108-fd9b-4a5a-a537-8c13709a8a95.jpeg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\9e5a624d-d76a-4983-97fc-cb1ff7c58151.mp4",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\9e5a624d-d76a-4983-97fc-cb1ff7c58151.mp4",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\9e5a624d-d76a-4983-97fc-cb1ff7c58151.mp4"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\a2d41116-41c8-40dd-84e2-6ef08e1fd7cf.png",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\a2d41116-41c8-40dd-84e2-6ef08e1fd7cf.png",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\a2d41116-41c8-40dd-84e2-6ef08e1fd7cf.png"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\a9ef1160-10bd-4ebc-b49c-09ffbdf00679.jpeg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\a9c84d7e-17f1-484c-b2f5-25644fae6e12.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\mensajes\\a9c84d7e-17f1-484c-b2f5-25644fae6e12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\a9ef1160-10bd-4ebc-b49c-09ffbdf00679.jpeg",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\a9ef1160-10bd-4ebc-b49c-09ffbdf00679.jpeg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\b66aa79b-fd54-41e6-8f1a-c2b27d970a22.jpg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\b66aa79b-fd54-41e6-8f1a-c2b27d970a22.jpg",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\b66aa79b-fd54-41e6-8f1a-c2b27d970a22.jpg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\c6fada0c-7ed6-473c-acf6-fc05e0b74b46.jpeg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\b8ff52ff-619e-4231-adcf-bee2971ddf8b.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\mensajes\\b8ff52ff-619e-4231-adcf-bee2971ddf8b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\c6fada0c-7ed6-473c-acf6-fc05e0b74b46.jpeg",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\c6fada0c-7ed6-473c-acf6-fc05e0b74b46.jpeg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\cd30f114-1227-4e08-8e88-2bc3877ccd62.png",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\cd30f114-1227-4e08-8e88-2bc3877ccd62.png",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\cd30f114-1227-4e08-8e88-2bc3877ccd62.png"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\d0e1463c-d7d4-43ba-8a52-c807647b3e13.gif",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\d0e1463c-d7d4-43ba-8a52-c807647b3e13.gif",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\d0e1463c-d7d4-43ba-8a52-c807647b3e13.gif"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\ddd89c39-5224-41a1-89cd-99de187819b7.pdf",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\dbe4281c-201f-4676-9c6a-785978a68bb7.pdf",
+      "PackagePath": "staticwebassets\\uploads\\mensajes\\dbe4281c-201f-4676-9c6a-785978a68bb7.pdf"
+    },
+    {
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\ddd89c39-5224-41a1-89cd-99de187819b7.pdf",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\ddd89c39-5224-41a1-89cd-99de187819b7.pdf"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\f494bcdc-baa7-41b5-a355-dd516ca07afb.gif",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\f494bcdc-baa7-41b5-a355-dd516ca07afb.gif",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\f494bcdc-baa7-41b5-a355-dd516ca07afb.gif"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\f9aebb2a-7bc8-4b3c-932f-4bf96297446b.png",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\mensajes\\f9aebb2a-7bc8-4b3c-932f-4bf96297446b.png",
       "PackagePath": "staticwebassets\\uploads\\mensajes\\f9aebb2a-7bc8-4b3c-932f-4bf96297446b.png"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\0dbc8c93-1dca-4248-9c30-153a009c0e83.jpeg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\0dbc8c93-1dca-4248-9c30-153a009c0e83.jpeg",
       "PackagePath": "staticwebassets\\uploads\\perfiles\\0dbc8c93-1dca-4248-9c30-153a009c0e83.jpeg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\439125b6-4e63-4235-a628-678ab122cb15.jpg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\439125b6-4e63-4235-a628-678ab122cb15.jpg",
       "PackagePath": "staticwebassets\\uploads\\perfiles\\439125b6-4e63-4235-a628-678ab122cb15.jpg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\51e0578d-4927-427d-a4f5-01a15d362e82.gif",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\51e0578d-4927-427d-a4f5-01a15d362e82.gif",
       "PackagePath": "staticwebassets\\uploads\\perfiles\\51e0578d-4927-427d-a4f5-01a15d362e82.gif"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\75239b69-59e5-4191-8929-b637d99fe317.jpeg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\75239b69-59e5-4191-8929-b637d99fe317.jpeg",
       "PackagePath": "staticwebassets\\uploads\\perfiles\\75239b69-59e5-4191-8929-b637d99fe317.jpeg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\9707d4c2-a260-49f7-9b32-680ac1df3c4a.jpeg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\9707d4c2-a260-49f7-9b32-680ac1df3c4a.jpeg",
       "PackagePath": "staticwebassets\\uploads\\perfiles\\9707d4c2-a260-49f7-9b32-680ac1df3c4a.jpeg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\b0b13c23-928e-4ac1-b33d-39ddabb446ba.jpeg",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\b0b13c23-928e-4ac1-b33d-39ddabb446ba.jpeg",
       "PackagePath": "staticwebassets\\uploads\\perfiles\\b0b13c23-928e-4ac1-b33d-39ddabb446ba.jpeg"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\be623435-734d-4ad2-9435-ab11928d1eda.png",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\be623435-734d-4ad2-9435-ab11928d1eda.png",
       "PackagePath": "staticwebassets\\uploads\\perfiles\\be623435-734d-4ad2-9435-ab11928d1eda.png"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\d3303134-59ba-4824-98c5-1aefcb5fb42d.gif",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\d3303134-59ba-4824-98c5-1aefcb5fb42d.gif",
       "PackagePath": "staticwebassets\\uploads\\perfiles\\d3303134-59ba-4824-98c5-1aefcb5fb42d.gif"
     },
     {
-      "Id": "C:\\Users\\lopez\\source\\repos\\chat-main\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\f88b6b65-40ae-4ceb-9cee-90bcc5108a6b.gif",
+      "Id": "C:\\Users\\lopez\\source\\repos\\Chat_version_final\\Chat.Mvc\\wwwroot\\uploads\\perfiles\\f88b6b65-40ae-4ceb-9cee-90bcc5108a6b.gif",
       "PackagePath": "staticwebassets\\uploads\\perfiles\\f88b6b65-40ae-4ceb-9cee-90bcc5108a6b.gif"
     },
     {

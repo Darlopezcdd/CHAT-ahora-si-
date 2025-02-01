@@ -11,47 +11,47 @@ namespace chat.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class NotificacionsController : ControllerBase
+    public class MensajeEliminadosController : ControllerBase
     {
         private readonly dbContext _context;
 
-        public NotificacionsController(dbContext context)
+        public MensajeEliminadosController(dbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Notificacions
+        // GET: api/MensajeEliminados
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Notificacion>>> GetNotificacion()
+        public async Task<ActionResult<IEnumerable<MensajeEliminado>>> GetNotificacion()
         {
             return await _context.Notificacion.ToListAsync();
         }
 
-        // GET: api/Notificacions/5
+        // GET: api/MensajeEliminados/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Notificacion>> GetNotificacion(int id)
+        public async Task<ActionResult<MensajeEliminado>> GetMensajeEliminado(int id)
         {
-            var notificacion = await _context.Notificacion.FindAsync(id);
+            var mensajeEliminado = await _context.Notificacion.FindAsync(id);
 
-            if (notificacion == null)
+            if (mensajeEliminado == null)
             {
                 return NotFound();
             }
 
-            return notificacion;
+            return mensajeEliminado;
         }
 
-        // PUT: api/Notificacions/5
+        // PUT: api/MensajeEliminados/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutNotificacion(int id, Notificacion notificacion)
+        public async Task<IActionResult> PutMensajeEliminado(int id, MensajeEliminado mensajeEliminado)
         {
-            if (id != notificacion.Id)
+            if (id != mensajeEliminado.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(notificacion).State = EntityState.Modified;
+            _context.Entry(mensajeEliminado).State = EntityState.Modified;
 
             try
             {
@@ -59,7 +59,7 @@ namespace chat.Api.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!NotificacionExists(id))
+                if (!MensajeEliminadoExists(id))
                 {
                     return NotFound();
                 }
@@ -72,34 +72,34 @@ namespace chat.Api.Controllers
             return NoContent();
         }
 
-        // POST: api/Notificacions
+        // POST: api/MensajeEliminados
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Notificacion>> PostNotificacion(Notificacion notificacion)
+        public async Task<ActionResult<MensajeEliminado>> PostMensajeEliminado(MensajeEliminado mensajeEliminado)
         {
-            _context.Notificacion.Add(notificacion);
+            _context.Notificacion.Add(mensajeEliminado);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetNotificacion", new { id = notificacion.Id }, notificacion);
+            return CreatedAtAction("GetMensajeEliminado", new { id = mensajeEliminado.Id }, mensajeEliminado);
         }
 
-        // DELETE: api/Notificacions/5
+        // DELETE: api/MensajeEliminados/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteNotificacion(int id)
+        public async Task<IActionResult> DeleteMensajeEliminado(int id)
         {
-            var notificacion = await _context.Notificacion.FindAsync(id);
-            if (notificacion == null)
+            var mensajeEliminado = await _context.Notificacion.FindAsync(id);
+            if (mensajeEliminado == null)
             {
                 return NotFound();
             }
 
-            _context.Notificacion.Remove(notificacion);
+            _context.Notificacion.Remove(mensajeEliminado);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool NotificacionExists(int id)
+        private bool MensajeEliminadoExists(int id)
         {
             return _context.Notificacion.Any(e => e.Id == id);
         }

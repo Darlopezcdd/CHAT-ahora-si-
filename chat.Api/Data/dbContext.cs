@@ -17,7 +17,7 @@ using chat.Modelos;
 
         public DbSet<chat.Modelos.Mensaje> Mensaje { get; set; } = default!;
 
-        public DbSet<chat.Modelos.Notificacion> Notificacion { get; set; } = default!;
+        public DbSet<chat.Modelos.MensajeEliminado> Notificacion { get; set; } = default!;
 
         public DbSet<chat.Modelos.User> User { get; set; } = default!;
         protected override void OnModelCreating(ModelBuilder modelBuilder)

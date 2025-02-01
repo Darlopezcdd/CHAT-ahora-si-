@@ -26,7 +26,7 @@ namespace chat.Api.Controllers
         public async Task<ActionResult<IEnumerable<Grupo>>> GetGrupo()
         {
             return await _context.Grupo
-                .Include(g => g.Users) 
+                .Include(g => g.Users)
                 .ToListAsync();
         }
 
@@ -99,10 +99,10 @@ namespace chat.Api.Controllers
             {
                 if (grupo.FechaCreacion == DateTime.MinValue)
                 {
-                    grupo.FechaCreacion = DateTime.Now; 
+                    grupo.FechaCreacion = DateTime.Now; // Asignar la fecha actual si no se proporciona
                 }
 
-          
+                // Obtener usuarios existentes si es necesario
                 if (grupo.Users != null && grupo.Users.Any())
                 {
                     var userIds = grupo.Users.Select(u => u.Id).ToList();

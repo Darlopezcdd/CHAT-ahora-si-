@@ -4,12 +4,19 @@
 
 <form asp-action="Create" method="post" enctype="multipart/form-data">
     <div class="form-group">
+        <label asp-for="GrupoId" class="control-label">Grupo</label>
+        <select asp-for="GrupoId" class="form-control" asp-items="ViewBag.GrupoId" id="grupoSelect">
+            <option value="">Seleccionar Grupo (Opcional)</option>
+        </select>
+    </div>
+
+    <div class="form-group">
         <label asp-for="UserRemitenteId" class="control-label">Remitente</label>
         <select asp-for="UserRemitenteId" class="form-control" asp-items="ViewBag.UserRemitenteId"></select>
     </div>
     <div class="form-group">
         <label asp-for="UserDestinatarioId" class="control-label">Destinatario</label>
-        <select asp-for="UserDestinatarioId" class="form-control" asp-items="ViewBag.UserDestinatarioId" required>
+        <select asp-for="UserDestinatarioId" class="form-control" asp-items="ViewBag.UserDestinatarioId" required id="destinatarioSelect">
             <option value="">Seleccionar Destinatario</option>
         </select>
     </div>
@@ -21,12 +28,107 @@
 
     <div class="form-group">
         <label asp-for="UrlArchivo" class="control-label">Archivo Adjunto (Opcional)</label>
-        <input type="file" name="archivoAdjunto" class="form-control" />
+        <input type="file" name="archivoAdjunto" class="form-control" id="archivoAdjunto" accept="image/*,.pdf,.doc,.docx" />
+        <small class="text-danger" id="errorArchivo" style="display:none;"></small>
+        <br>
+        <div id="previewContainer" style="margin-top: 10px; display: none;">
+            <img id="previewImagen" src="#" alt="Previsualización" style="max-width: 200px; display: none;" />
+            <canvas id="previewPDF" style="display: none; max-width: 200px;"></canvas>
+            <img id="previewIcono" src="#" alt="Documento" style="max-width: 50px; display: none;" />
+        </div>
     </div>
 
     <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
     <a href="@Url.Action("Index", "Mensajes")" class="btn btn-secondary">Cancelar</a>
-
-    <!-- Botón para enviar un mensaje a un grupo -->
-    <a href="@Url.Action("CreateGrupo", "Mensajes")" class="btn btn-secondary">Mensaje para un Grupo?</a>
 </form>
+
+<script>
+    document.getElementById("archivoAdjunto").addEventListener("change", function (event) {
+        var archivo = event.target.files[0];
+        var errorMensaje = document.getElementById("errorArchivo");
+        var previewImagen = document.getElementById("previewImagen");
+        var previewPDF = document.getElementById("previewPDF");
+        var previewIcono = document.getElementById("previewIcono");
+        var previewContainer = document.getElementById("previewContainer");
+
+        // Resetear vistas previas y mensajes de error
+        previewImagen.style.display = "none";
+        previewPDF.style.display = "none";
+        previewIcono.style.display = "none";
+        errorMensaje.style.display = "none";
+        previewContainer.style.display = "none";
+
+        if (archivo) {
+            // Validar tamaño del archivo (Máximo 20MB)
+            if (archivo.size > 20 * 1024 * 1024) {
+                errorMensaje.textContent = "El archivo es demasiado grande. El tamaño máximo permitido es 20MB.";
+                errorMensaje.style.display = "block";
+                event.target.value = "";
+                return;
+            }
+
+            var reader = new FileReader();
+            var tipoArchivo = archivo.type;
+
+            reader.onload = function (e) {
+                previewContainer.style.display = "block";
+
+                if (tipoArchivo.startsWith("image/")) {
+                    // Previsualización de imágenes
+                    previewImagen.src = e.target.result;
+                    previewImagen.style.display = "block";
+                } else if (tipoArchivo === "application/pdf") {
+                    // Previsualización de PDF (solo la primera página)
+                    var pdfData = new Uint8Array(e.target.result);
+                    pdfjsLib.getDocument({ data: pdfData }).promise.then(function (pdf) {
+                        pdf.getPage(1).then(function (page) {
+                            var scale = 0.5;
+                            var viewport = page.getViewport({ scale: scale });
+
+                            var canvas = document.getElementById("previewPDF");
+                            var context = canvas.getContext("2d");
+                            canvas.height = viewport.height;
+                            canvas.width = viewport.width;
+
+                            var renderContext = {
+                                canvasContext: context,
+                                viewport: viewport
+                            };
+                            page.render(renderContext);
+                            canvas.style.display = "block";
+                        });
+                    });
+                } else if (tipoArchivo === "application/msword" || tipoArchivo === "application/vnd.openxmlformats-officedocument.wordprocessingml.document") {
+                    // Mostrar un icono para documentos Word
+                    previewIcono.src = "https://cdn-icons-png.flaticon.com/512/732/732220.png"; // Icono de Word
+                    previewIcono.style.display = "block";
+                } else {
+                    // Tipo de archivo no soportado
+                    errorMensaje.textContent = "Tipo de archivo no permitido. Solo imágenes, PDFs y documentos de Word.";
+                    errorMensaje.style.display = "block";
+                    event.target.value = "";
+                }
+            };
+
+            // Si es un PDF, leerlo como ArrayBuffer para renderizar con pdf.js
+            if (tipoArchivo === "application/pdf") {
+                reader.readAsArrayBuffer(archivo);
+            } else {
+                reader.readAsDataURL(archivo);
+            }
+        }
+    });
+
+    // Manejar la lógica de deshabilitar destinatario si se selecciona un grupo
+    const grupoSelect = document.getElementById('grupoSelect');
+    const destinatarioSelect = document.getElementById('destinatarioSelect');
+
+    function toggleDestinatario() {
+        destinatarioSelect.disabled = grupoSelect.value !== "";
+    }
+
+    grupoSelect.addEventListener('change', toggleDestinatario);
+    toggleDestinatario();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>

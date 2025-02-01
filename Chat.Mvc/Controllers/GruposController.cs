@@ -15,10 +15,10 @@ namespace Chat.Mvc.Controllers
             _chatApiProxy = chatApiProxy;
         }
 
-      
+
         public async Task<IActionResult> Index()
         {
-            var grupos = await _chatApiProxy.GetGruposAsync(); 
+            var grupos = await _chatApiProxy.GetGruposAsync();
             return View(grupos);
         }
 
@@ -34,6 +34,7 @@ namespace Chat.Mvc.Controllers
 
             return View(new Grupo());
         }
+
         [HttpPost]
         public async Task<IActionResult> Create(Grupo grupo, int[] selectedUsers)
         {
@@ -49,7 +50,7 @@ namespace Chat.Mvc.Controllers
                 return View(grupo);
             }
 
-            // Filtrar los usuarios seleccionados
+            // Obtener usuarios seleccionados con nombres desde la base de datos
             var usuariosCompletos = await _chatApiProxy.GetUsersAsync();
             grupo.Users = usuariosCompletos
                 .Where(u => selectedUsers.Contains(u.Id))
@@ -60,10 +61,20 @@ namespace Chat.Mvc.Controllers
                 })
                 .ToList();
 
-            // Si hay usuarios seleccionados, deshabilitar el campo de destinatario en la vista
-            ViewBag.DestinatarioDeshabilitado = true;
 
-            // Enviar datos a la API
+            var payload = new
+            {
+                Id = grupo.Id,
+                Name = grupo.Name,
+                FechaCreacion = DateTime.Now,
+                Users = grupo.Users.Select(u => new { u.Id, u.Name }).ToList()
+            };
+
+            var jsonPayload = JsonConvert.SerializeObject(payload, Formatting.Indented);
+            Console.WriteLine("JSON enviado al backend:");
+            Console.WriteLine(jsonPayload);
+
+            // Enviar al proxy
             var success = await _chatApiProxy.CreateGrupoAsync(grupo);
             if (success)
             {
@@ -82,10 +93,9 @@ namespace Chat.Mvc.Controllers
         }
 
 
-
         public async Task<IActionResult> Details(int id)
         {
-       
+            // Obtener el grupo con sus integrantes desde el backend
             var grupo = await _chatApiProxy.GetGrupoByIdAsync(id);
             if (grupo == null)
             {
@@ -103,7 +113,7 @@ namespace Chat.Mvc.Controllers
         {
             try
             {
-                var success = await _chatApiProxy.DeleteGrupoAsync(id); 
+                var success = await _chatApiProxy.DeleteGrupoAsync(id);
                 if (!success)
                 {
                     TempData["Error"] = "No se pudo eliminar el grupo. Verifica si existe.";

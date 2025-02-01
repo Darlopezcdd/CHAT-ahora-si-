@@ -89,6 +89,115 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "chat.Api.Controllers.MensajeEliminadosController",
+    "Method": "GetNotificacion",
+    "RelativePath": "api/MensajeEliminados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[chat.Modelos.MensajeEliminado, chat.Modelos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajeEliminadosController",
+    "Method": "PostMensajeEliminado",
+    "RelativePath": "api/MensajeEliminados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mensajeEliminado",
+        "Type": "chat.Modelos.MensajeEliminado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "chat.Modelos.MensajeEliminado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajeEliminadosController",
+    "Method": "GetMensajeEliminado",
+    "RelativePath": "api/MensajeEliminados/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "chat.Modelos.MensajeEliminado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajeEliminadosController",
+    "Method": "PutMensajeEliminado",
+    "RelativePath": "api/MensajeEliminados/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mensajeEliminado",
+        "Type": "chat.Modelos.MensajeEliminado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajeEliminadosController",
+    "Method": "DeleteMensajeEliminado",
+    "RelativePath": "api/MensajeEliminados/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "chat.Api.Controllers.MensajesController",
     "Method": "GetMensaje",
     "RelativePath": "api/Mensajes",
@@ -279,115 +388,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "chat.Api.Controllers.NotificacionsController",
-    "Method": "GetNotificacion",
-    "RelativePath": "api/Notificacions",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[chat.Modelos.Notificacion, chat.Modelos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "chat.Api.Controllers.NotificacionsController",
-    "Method": "PostNotificacion",
-    "RelativePath": "api/Notificacions",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "notificacion",
-        "Type": "chat.Modelos.Notificacion",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "chat.Modelos.Notificacion",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "chat.Api.Controllers.NotificacionsController",
-    "Method": "GetNotificacion",
-    "RelativePath": "api/Notificacions/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "chat.Modelos.Notificacion",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "chat.Api.Controllers.NotificacionsController",
-    "Method": "PutNotificacion",
-    "RelativePath": "api/Notificacions/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "notificacion",
-        "Type": "chat.Modelos.Notificacion",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "chat.Api.Controllers.NotificacionsController",
-    "Method": "DeleteNotificacion",
-    "RelativePath": "api/Notificacions/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "chat.Api.Controllers.UsersController",
