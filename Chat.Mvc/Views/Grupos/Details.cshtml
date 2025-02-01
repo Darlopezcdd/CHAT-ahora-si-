@@ -1,0 +1,28 @@
+﻿@model chat.Modelos.Grupo
+
+<h1>Detalles del Grupo</h1>
+
+<div class="card">
+    <div class="card-header">
+        <h3>@Model.Name</h3>
+        <p>Fecha de Creación: @Model.FechaCreacion.ToString("yyyy-MM-dd HH:mm:ss")</p>
+    </div>
+    <div class="card-body">
+        <h4>Integrantes</h4>
+        @if (Model.Users != null && Model.Users.Any())
+        {
+            <ul>
+                @foreach (var user in Model.Users)
+                {
+                    <li>@user.Name (ID: @user.Id)</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No hay integrantes en este grupo.</p>
+        }
+    </div>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Volver</a>

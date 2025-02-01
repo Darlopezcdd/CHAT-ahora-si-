@@ -1,0 +1,32 @@
+﻿@model chat.Modelos.Mensaje
+
+<h1>Enviar Mensaje</h1>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="UserRemitenteId" class="control-label">Remitente</label>
+        <select asp-for="UserRemitenteId" class="form-control" asp-items="ViewBag.UserRemitenteId"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="UserDestinatarioId" class="control-label">Destinatario</label>
+        <select asp-for="UserDestinatarioId" class="form-control" asp-items="ViewBag.UserDestinatarioId" required>
+            <option value="">Seleccionar Destinatario</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Contenido" class="control-label">Mensaje</label>
+        <textarea asp-for="Contenido" class="form-control" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UrlArchivo" class="control-label">Archivo Adjunto (Opcional)</label>
+        <input type="file" name="archivoAdjunto" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+    <a href="@Url.Action("Index", "Mensajes")" class="btn btn-secondary">Cancelar</a>
+
+    <!-- Botón para enviar un mensaje a un grupo -->
+    <a href="@Url.Action("CreateGrupo", "Mensajes")" class="btn btn-secondary">Mensaje para un Grupo?</a>
+</form>

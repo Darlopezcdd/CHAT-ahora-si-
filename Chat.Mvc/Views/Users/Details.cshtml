@@ -1,0 +1,10 @@
+﻿@model chat.Modelos.User
+
+<h1>Detalles del Usuario</h1>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Nombre:</strong> @Model.Name</p>
+
+
+
+<a href="@Url.Action("Index", "Users")" class="btn btn-secondary">Volver</a>

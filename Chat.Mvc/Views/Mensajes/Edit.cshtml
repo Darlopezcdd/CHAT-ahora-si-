@@ -1,0 +1,17 @@
+﻿@model chat.Modelos.Mensaje
+
+<h1>Editar Mensaje</h1>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="UserRemitenteId" />
+    <input type="hidden" asp-for="UserDestinatarioId" />
+    <input type="hidden" asp-for="GrupoId" />
+
+    <div class="form-group">
+        <label asp-for="Contenido">Contenido</label>
+        <textarea asp-for="Contenido" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

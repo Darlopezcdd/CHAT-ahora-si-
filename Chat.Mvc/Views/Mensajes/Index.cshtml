@@ -1,0 +1,184 @@
+﻿@model Chat.Mvc.Models.ChatViewModel
+
+
+<header>
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" asp-area="" asp-controller="Mensajes" asp-action="Index">Chat.Mvc</a>
+
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#" id="notification-bell">
+                        🔔 Nuevos Mensajes (<span id="new-message-count"> </span>)...
+                    </a>
+                </li>
+            </ul>
+        </div>       
+    </div>
+</header>
+<div class="chat-container">
+<div class="sidebar">
+    <h4>Seleccionar Usuario Activo</h4>
+    <form asp-action="Index" method="get">
+        <div class="form-group">
+            <label for="userId">Usuario Activo:</label>
+            <select name="usuarioActivoId" class="form-control" onchange="this.form.submit()">
+                    @foreach (var user in Model.Usuarios)
+                    {
+                        @if (user.Id == Model.UsuarioActivoId)
+
+                        {
+                            <option value="@user.Id" selected>@user.Name</option>
+                        }
+
+                        else
+
+                        {
+                            <option value="@user.Id">@user.Name</option>
+                        }
+                    }
+            </select>
+        </div>
+    </form>
+
+    <h4>Usuarios</h4>
+    <ul>
+        @foreach (var user in Model.Usuarios)
+        {
+            <li>
+                <a href="@Url.Action("Index", "Mensajes", new { usuarioActivoId = Model.UsuarioActivoId, usuarioSeleccionadoId = user.Id })">
+                    @user.Name
+                </a>
+            </li>
+        }
+    </ul>
+        <h4>Grupos</h4>
+        @if (!Model.Grupos.Any())
+
+        {
+            <div class="alert alert-info">No hay grupos disponibles.</div>
+        }
+
+        else
+
+        {
+            <ul>
+                @foreach (var grupo in Model.Grupos)
+
+                {
+                    <li>
+                        <a href="@Url.Action("Index", "Mensajes", new { usuarioActivoId = Model.UsuarioActivoId, grupoId = grupo.Id })">
+                            @grupo.Name
+                        </a>
+                    </li>
+                }
+            </ul>
+        }
+        <a asp-action="Create" asp-controller="Grupos" class="btn btn-primary mt-3">Crear Grupo</a>
+        <div class="message-search">
+            <div class="input-group">
+                <input type="text" id="searchInput" class="form-control" placeholder="Buscar mensajes..." />
+                <button class="btn btn-primary" onclick="buscarMensajes()">Buscar</button>
+            </div>
+            <div id="searchResults" class="search-results mt-3">
+            </div>
+        </div>
+</div>
+   
+
+    <div class="chat-messages">
+        @{
+            Func<string, bool> esImagen = url =>
+            {
+                var extensionesValidas = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+
+                return !string.IsNullOrEmpty(url) && extensionesValidas.Any(e => url.EndsWith(e, StringComparison.OrdinalIgnoreCase));
+            };
+        }
+
+        <div class="messages">
+            @if (!Model.Mensajes.Any())
+            {
+                <div class="alert alert-warning">
+                    No hay mensajes para mostrar.
+                </div>
+            }
+            else
+            {
+                <ul>
+                    @foreach (var mensaje in Model.Mensajes)
+                    {
+
+                        var esRemitente = mensaje.NombreRemitente == Model.Usuarios.FirstOrDefault(u => u.Id == Model.UsuarioActivoId)?.Name;
+
+                        <div class="message @(esRemitente ? "sent" : "received")">
+                            <div class="message-content">
+                                <p>@mensaje.Contenido</p>
+                                @if (!string.IsNullOrEmpty(mensaje.UrlArchivo))
+
+                                {
+                                    @if (esImagen(mensaje.UrlArchivo))
+                                    {
+                                        <img src="@mensaje.UrlArchivo" alt="Imagen Adjunta" class="message-image" />
+                                    }
+                                    else
+                                    {
+                                        <a href="@mensaje.UrlArchivo" target="_blank" class="message-file">Descargar Archivo</a>
+                                    }
+                                }
+                                <span class="message-time">@mensaje.FechaEnvio</span>
+                            </div>
+                            <div class="message-actions">
+                                <a asp-action="Edit" asp-controller="Mensajes" asp-route-id="@mensaje.Id" class="btn btn-warning btn-sm">Editar</a>
+                                <a asp-action="ConfirmDelete" asp-controller="Mensajes" asp-route-id="@mensaje.Id" class="btn btn-danger btn-sm">Borrar</a>
+                            </div>
+                        </div>
+                    }
+                </ul>
+            }
+        </div>
+        <div class="message-input">
+            <form asp-action="Create" method="get">
+                <input type="hidden" name="UserRemitenteId" value="@Model.UsuarioActivoId" />
+                <button type="submit">Enviar</button>
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    async function buscarMensajes() {
+        const query = document.getElementById('searchInput').value.trim();
+        const searchResults = document.getElementById('searchResults');
+
+        if (!query) {
+            searchResults.innerHTML = "<p>No se encontraron resultados.</p>";
+            return;
+        }
+
+        searchResults.innerHTML = "<p class='loading'>Cargando...</p>"; 
+
+        try {
+            const response = await fetch(`/Mensajes/BuscarMensajesGlobal?query=${encodeURIComponent(query)}`);
+            const data = await response.json();
+
+            if (data.success && data.mensajes.length > 0) {
+                searchResults.innerHTML = data.mensajes.map(m => `
+                    <div>
+                        <p><strong>De:</strong> ${m.nombreRemitente}</p>
+                        <p><strong>Para:</strong> ${m.nombreDestinatario}</p>
+                        <p>${m.contenido}</p>
+                        <p><em>${new Date(m.fechaEnvio).toLocaleString()}</em></p>
+                        <hr>
+                    </div>
+                `).join("");
+            } else {
+                searchResults.innerHTML = "<p>No se encontraron resultados.</p>";
+            }
+        } catch (error) {
+            console.error("Error al buscar mensajes:", error);
+            searchResults.innerHTML = "<p>Error al realizar la búsqueda.</p>";
+        }
+    }
+</script>

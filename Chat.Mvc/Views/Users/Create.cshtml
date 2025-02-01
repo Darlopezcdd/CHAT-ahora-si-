@@ -1,0 +1,25 @@
+﻿@model chat.Modelos.User
+
+<h2>Crear Usuario</h2>
+
+<form asp-action="Create" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProfilePicture" class="control-label">Foto de Perfil</label>
+        <input asp-for="ProfilePicture" class="form-control" type="file" />
+        <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Crear Usuario" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Volver a la lista</a>
+</div>

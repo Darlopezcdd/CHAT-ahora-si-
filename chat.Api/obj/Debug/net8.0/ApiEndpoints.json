@@ -1,0 +1,491 @@
+[
+  {
+    "ContainingType": "chat.Api.Controllers.GrupoesController",
+    "Method": "GetGrupo",
+    "RelativePath": "api/Grupoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[chat.Modelos.Grupo, chat.Modelos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.GrupoesController",
+    "Method": "PostGrupo",
+    "RelativePath": "api/Grupoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "grupo",
+        "Type": "chat.Modelos.Grupo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.GrupoesController",
+    "Method": "GetGrupo",
+    "RelativePath": "api/Grupoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.GrupoesController",
+    "Method": "PutGrupo",
+    "RelativePath": "api/Grupoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "grupo",
+        "Type": "chat.Modelos.Grupo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.GrupoesController",
+    "Method": "DeleteGrupo",
+    "RelativePath": "api/Grupoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajesController",
+    "Method": "GetMensaje",
+    "RelativePath": "api/Mensajes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[chat.Modelos.Mensaje, chat.Modelos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajesController",
+    "Method": "PostMensaje",
+    "RelativePath": "api/Mensajes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mensaje",
+        "Type": "chat.Modelos.Mensaje",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "chat.Modelos.Mensaje",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajesController",
+    "Method": "GetMensaje",
+    "RelativePath": "api/Mensajes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "chat.Modelos.Mensaje",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajesController",
+    "Method": "PutMensaje",
+    "RelativePath": "api/Mensajes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mensaje",
+        "Type": "chat.Modelos.Mensaje",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajesController",
+    "Method": "DeleteMensaje",
+    "RelativePath": "api/Mensajes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajesController",
+    "Method": "BuscarPorContenido",
+    "RelativePath": "api/Mensajes/BuscarPorContenido",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajesController",
+    "Method": "MarcarComoLeidos",
+    "RelativePath": "api/Mensajes/MarcarComoLeidos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mensajes",
+        "Type": "System.Collections.Generic.List\u00601[[chat.Modelos.Mensaje, chat.Modelos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajesController",
+    "Method": "MarcarMensajesGrupoComoLeidos",
+    "RelativePath": "api/Mensajes/MarcarMensajesGrupoComoLeidos/{grupoId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "grupoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.MensajesController",
+    "Method": "NuevosMensajes",
+    "RelativePath": "api/Mensajes/NuevosMensajes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.NotificacionsController",
+    "Method": "GetNotificacion",
+    "RelativePath": "api/Notificacions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[chat.Modelos.Notificacion, chat.Modelos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.NotificacionsController",
+    "Method": "PostNotificacion",
+    "RelativePath": "api/Notificacions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificacion",
+        "Type": "chat.Modelos.Notificacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "chat.Modelos.Notificacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.NotificacionsController",
+    "Method": "GetNotificacion",
+    "RelativePath": "api/Notificacions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "chat.Modelos.Notificacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.NotificacionsController",
+    "Method": "PutNotificacion",
+    "RelativePath": "api/Notificacions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "notificacion",
+        "Type": "chat.Modelos.Notificacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.NotificacionsController",
+    "Method": "DeleteNotificacion",
+    "RelativePath": "api/Notificacions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[chat.Modelos.User, chat.Modelos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.UsersController",
+    "Method": "PostUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "chat.Modelos.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.UsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "chat.Modelos.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.UsersController",
+    "Method": "PutUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "chat.Modelos.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "chat.Api.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

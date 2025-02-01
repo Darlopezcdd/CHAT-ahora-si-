@@ -1,0 +1,36 @@
+﻿@model IEnumerable<chat.Modelos.Grupo>
+
+<h1>Lista de Grupos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Fecha de Creación</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var grupo in Model)
+        {
+            <tr>
+                <td>@grupo.Id</td>
+                <td>@grupo.Name</td>
+                <td>@grupo.FechaCreacion.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a href="@Url.Action("Details", "Grupos", new { id = grupo.Id })" class="btn btn-info">Detalles</a>
+                    <a href="@Url.Action("Edit", "Grupos", new { id = grupo.Id })" class="btn btn-warning">Editar</a>
+                    <form asp-action="Delete" asp-controller="Grupos" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@grupo.Id" />
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('¿Estás seguro de eliminar este grupo?')">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<a href="@Url.Action("Index", "Mensajes")" class="btn btn-primary">regresar al chat</a>
+

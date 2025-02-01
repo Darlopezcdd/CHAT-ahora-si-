@@ -1,0 +1,66 @@
+﻿@model Chat.Mvc.Models.UsuariosYGruposViewModel
+
+<h1>Usuarios</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Foto perfil</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Usuarios)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Name </td>
+                <td>
+                    <a href="@Url.Action("Index", "Mensajes", new { userId = user.Id })" class="btn btn-primary">Ver Mensajes</a>
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(user.ProfilePicture))
+                    {
+                        <img src="@Url.Content( user.ProfilePicture)" alt="Profile Picture" width="50" height="50" />
+                    }
+                    else
+                    {
+                        <span>No Image</span>
+                    }
+                </td>
+                <td>
+                    <form asp-action="Delete" asp-controller="Users" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@user.Id" />
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('¿Estás seguro de que deseas eliminar este usuario?')">
+                            Eliminar
+                        </button>
+                    </form>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h1>Grupos</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var grupo in Model.Grupos)
+        {
+            <tr>
+                <td>@grupo.Id</td>
+                <td>@grupo.Name</td>
+                <td>
+                    <a href="@Url.Action("Index", "Mensajes", new { grupoId = grupo.Id })" class="btn btn-primary">Ver Mensajes</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
