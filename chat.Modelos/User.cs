@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace chat.Modelos
@@ -16,6 +17,7 @@ namespace chat.Modelos
         public string? ProfilePicture { get; set; }
         public List<Mensaje>? MensajesEnviados { get; set; }
         public List<Mensaje>? MensajesRecibidos { get; set; }
+
         public List<Grupo>? Grupos { get; set; }
     }
 }
